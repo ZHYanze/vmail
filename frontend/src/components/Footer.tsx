@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Twitter from "./icons/Twitter.tsx";
+import Telegram from "./icons/Telegram.tsx";
 import GitHub from "./icons/GitHub.tsx";
 import MailIcon from "./icons/MailIcon.tsx";
 import WrdoLogo from "./icons/Wrdo.tsx";
