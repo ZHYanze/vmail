@@ -48,7 +48,7 @@ export function Footer() {
           rel="noopener noreferrer"
           title="Telegram"
           className="text-gray-400 hover:text-gray-500">
-          <Twitter />
+          <Telegram />
         </a>
         <a
           href="https://github.com/ZHYanze/vmail"
