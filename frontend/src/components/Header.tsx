@@ -72,7 +72,7 @@ export function Header() {
           className="font-bold flex items-center justify-center gap-3">
           <VmailLogo />
           <button className="cool-btn">
-            <span>VMAIL.DEV</span>
+            <span>666.GE</span>
           </button>
         </Link>
         <nav className="flex items-center">
@@ -131,7 +131,7 @@ export function Header() {
             className="ml-3 md:ml-8"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/oiov/vmail">
+            href="https://github.com/ZHYanze/vmail">
             <button className="whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-transparent hover:bg-accent hover:text-accent-foreground text-md flex h-[32px] w-[85px] cursor-pointer items-center justify-center rounded-md border-2 p-2 font-semibold hover:opacity-50">
               <GithubPlat />
               <div className="ml-1.5 text-sm">Star</div>
