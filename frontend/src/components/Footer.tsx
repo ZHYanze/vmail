@@ -14,7 +14,7 @@ export function Footer() {
         666.GE
       </Link>{" "}
       <p className="mt-4 text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">
-        © 2024-2026 666.GE
+        © 2026 枕月酌
       </p>
       <div className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
         {/* 社交媒体和联系方式链接 */}
@@ -37,16 +37,16 @@ export function Footer() {
           />
         </a>
         <a
-          href="mailto:hi@oiov.dev"
+          href="mailto:hello@imzyz.com"
           title="Email"
           className="text-gray-400 hover:text-gray-500">
           <MailIcon className="w-6 h-6" />
         </a>
         <a
-          href="https://twitter.com/yesmoree"
+          href="https://t.me/ZHYanze"
           target="_blank"
           rel="noopener noreferrer"
-          title="Twitter"
+          title="Telegram"
           className="text-gray-400 hover:text-gray-500">
           <Twitter />
         </a>
