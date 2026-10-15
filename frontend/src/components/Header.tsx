@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { VmailLogo } from "./icons/vmail.tsx";
 import { useTranslation } from "react-i18next";
 import GithubPlat from "./icons/GitHubPlat.tsx";
 import { useState, useRef, useEffect } from "react";
@@ -70,20 +69,12 @@ export function Header() {
         <Link
           to="/"
           className="font-bold flex items-center justify-center gap-3">
-          <VmailLogo />
+          <img src="/favicon.svg" width="32" height="32" alt="666.GE" className="rounded" />
           <button className="cool-btn">
             <span>666.GE</span>
           </button>
         </Link>
         <nav className="flex items-center">
-          {/* 导航链接 */}
-          <a
-            className="ml-3 md:ml-8"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="/api-docs">
-            API
-          </a>
           <button
             onClick={() => setShowAboutModal(true)}
             className="ml-3 md:ml-8 text-sm md:text-base hidden md:block hover:text-cyan-400">
