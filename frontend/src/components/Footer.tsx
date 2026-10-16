@@ -18,21 +18,15 @@ export function Footer() {
       </p>
       <div className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
         {/* 社交媒体和联系方式链接 */}
+       
         <a
-          href="https://like.do"
+          href="https://imzyz.com"
           target="_blank"
-          title="LikeDo"
-          className="text-gray-400 hover:text-gray-500  scale-[1.2]">
-          <img src="/likedo.svg" alt="LikeDo" className="w-6 h-6" />
-        </a>
-        <a
-          href="https://attachready.com"
-          target="_blank"
-          title="AttachReady"
+          title="mooncat"
           className="text-gray-400 hover:text-gray-500  scale-[1.1]">
           <img
-            src="/attachready.png"
-            alt="AttachReady"
+            src="/mooncat.png"
+            alt="mooncat"
             className="w-6 h-6 rounded-full"
           />
         </a>
